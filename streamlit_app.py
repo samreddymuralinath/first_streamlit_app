@@ -41,15 +41,13 @@ try:
 
 except URLError as e: 
   streamlit.error()
+
 #streamlit.text(fruityvice_response.json())
 # write your own comment -what does the next line do? 
 # write your own comment - what does this do?
-
-
-
 # my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
 
-streamlit.header('View Our Fruit List  Add Your Favorites!')
+streamlit.header("View Our Fruit List - Add Your Favorites!")
 
 #Snowflake-related functions
 def get_fruit_load_list():
